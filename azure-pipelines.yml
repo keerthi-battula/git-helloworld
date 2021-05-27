@@ -10,10 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: 'cd HelloWorld'
+
     
 - task: Maven@3
   inputs:
