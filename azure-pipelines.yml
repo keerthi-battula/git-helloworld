@@ -14,7 +14,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'cd HelloWorld'
-    workingDirectory: 'HelloWorld'
+    
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
